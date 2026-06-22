@@ -29,7 +29,7 @@ export default function EventDetailScreen() {
       <StatusBar barStyle="light-content" />
       {/* Banner */}
       {event.banner_image ? (
-        <Image source={{ uri: `http://10.0.2.2:8000${event.banner_image}` }} style={styles.banner} />
+        <Image source={{ uri: `https://gautam1432.pythonanywhere.com${event.banner_image}` }} style={styles.banner} />
       ) : (
         <View style={[styles.bannerPlaceholder, { backgroundColor: Colors.bg }]}>
           <CyberArt category={event.category} color={catColor} />

@@ -1,6 +1,6 @@
 // Base URL — change to your LAN IP for physical device testing
 // Android emulator maps 10.0.2.2 → your PC's localhost
-export const API_BASE_URL = 'http://10.254.6.154:8000/api';
+export const API_BASE_URL = 'https://gautam1432.pythonanywhere.com/api';
 
 // Token storage keys
 export const TOKEN_KEYS = {

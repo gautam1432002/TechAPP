@@ -27,7 +27,7 @@ export default function EventsScreen() {
         onPress={() => navigation.navigate('EventDetail', { event: item })}
         activeOpacity={0.85}>
         {item.banner_image ? (
-          <Image source={{ uri: `http://10.0.2.2:8000${item.banner_image}` }} style={styles.banner} />
+          <Image source={{ uri: `https://gautam1432.pythonanywhere.com${item.banner_image}` }} style={styles.banner} />
         ) : (
           <View style={[styles.bannerPlaceholder, { overflow: 'hidden' }]}>
             <CyberArt category={item.category} color={catColor} />
